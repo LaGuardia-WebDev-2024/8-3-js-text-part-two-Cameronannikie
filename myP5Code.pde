@@ -8,4 +8,15 @@ draw = function(){
   background(255, 255, 255);
   fill(255, 0, 255);
   ellipse(36, 45, 12, 12); 
+  //string=text
+  fill(92,24,219);
+
+  //var draw = function(){
+    textSize(30);
+    var myName = "Cam";
+    var message =myName + "!!!";
+    text(message,mouseX,mouseY);
+  //}
+
+  
 };
